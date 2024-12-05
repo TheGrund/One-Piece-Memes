@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Meme Gallery</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            background: linear-gradient(45deg, #ffdfba, #ffe699);
+            color: #3e2723;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #3e2723;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        header h1 span {
+            font-size: 1.2em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 4px solid #3e2723;
+            border-radius: 10px;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 18px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            background-color: #ffcc00;
+            color: #3e2723;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>☠️ One Piece Meme Gallery ☠️ <span>🏴‍☠️</span></h1>
+        <p>"Laugh or download, Straw Hat style! 🌊"</p>
+    </header>
+    <main>
+        <div class="gallery">
+            <a href="memes/meme1.jpg" download="onepiece_meme1">
+                <img src="memes/meme1.jpg" alt="Meme 1">
+            </a>
+            <a href="memes/meme2.jpg" download="onepiece_meme2">
+                <img src="memes/meme2.jpg" alt="Meme 2">
+            </a>
+            <a href="memes/meme3.jpg" download="onepiece_meme3">
+                <img src="memes/meme3.jpg" alt="Meme 3">
+            </a>
+            <a href="memes/meme4.jpg" download="onepiece_meme4">
+                <img src="memes/meme4.jpg" alt="Meme 4">
+            </a>
+            <a href="memes/meme5.jpg" download="onepiece_meme5">
+                <img src="memes/meme5.jpg" alt="Meme 5">
+            </a>
+            <a href="memes/meme6.jpg" download="onepiece_meme6">
+                <img src="memes/meme6.jpg" alt="Meme 6">
+            </a>
+            <a href="memes/meme7.jpg" download="onepiece_meme7">
+                <img src="memes/meme7.jpg" alt="Meme 7">
+            </a>
+            <a href="memes/meme8.jpg" download="onepiece_meme8">
+                <img src="memes/meme8.jpg" alt="Meme 8">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>💀 Built with <span>❤️</span> for all Nakamas! 🌟</p>
+    </footer>
+</body>
+</html>
